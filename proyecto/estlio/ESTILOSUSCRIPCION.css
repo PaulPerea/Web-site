@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 98%;
+    height: 100%;
+    background-color: rgb(223, 213, 213);
+}
+.suscripcion{
+    background-color: violet;
+    width: 677px;
+    height: 690px;
+}
+.suscripcion .encabezado{
+    background-color: red;
+    text-align: center;
+    
+}
+.texto{
+    display: inline-block;
+    vertical-align: top;
+}

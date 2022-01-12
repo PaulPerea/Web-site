@@ -1,0 +1,221 @@
+*, ::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+section {
+    display: block;
+}
+.contenido {
+    padding-bottom: 60px;
+    background: #ffffff;
+}
+.juego {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* OBCIONAL SOBRE EL TAMAÑO DE LA PAGINA  */
+@media (min-width: 576px) {
+    .colum-logo-8 {
+        
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (max-width: 650px) {
+    
+    .colum-logo-8 {
+        
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+}
+@media (min-width: 768px) {
+    .colum-logo-8 {
+        
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px){
+    .colum-logo-8 {
+        
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+/* OPCIONAL PERO DALE UN OJO */
+
+div {
+    display: block;
+}
+.fila {
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.colum-logo-8 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+ }
+ .tendencia_juego {
+    margin-bottom: 50px;
+ }
+ .titulo {
+    margin-bottom: 30px;
+ }
+
+ /* FILA PARA LOS JUEGOS EN VENTA */
+
+.colum-logo-1 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.descri-juego {
+    margin-bottom: 30px;
+}
+a {
+    transition: all 0.5s ease;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.img_juego_descri {
+    -webkit-transition: all 0.5s ease;
+    
+    transition: all 0.5s ease;
+}
+.img_juego_descri {
+    height: 255px;
+    position: relative;
+    border-radius: 5px;
+}
+
+
+.equipo-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.descri-juego-text {
+    padding-top: 0px;
+}
+.descri-juego-text ul {
+    margin-bottom: 10px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+    list-style-type: disc;
+}
+.descri-juego-text ul li{
+    list-style: none;
+    font-size: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 1px 10px;
+    background: #ff9d00;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+.descri-juego-text li {
+    margin: 1px 0px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+h5 {
+    font-size: 18px;
+}
+h5 {
+    margin: 0;
+    color: #111111;
+    font-weight: 400;
+    font-family: "Mulish", sans-serif;
+
+    margin-top: 0;
+    margin-bottom: .5rem;
+
+
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+    font-size: 0.83em;
+    font-weight: bold;
+
+}
+
+
+
+.descri-juego-text h5 a {
+    position: relative;
+    color: #232323;
+    font-weight: 700;
+    line-height: 19px;
+    font-size: 12px;
+    top: 5px;
+}
+img {
+    width: 100%;
+    position: relative;
+}
+
+
+
