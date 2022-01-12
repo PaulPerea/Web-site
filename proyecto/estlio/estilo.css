@@ -1,0 +1,112 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    background: #e9e8ed;
+    color: #2a2e2e;
+    margin: 0 auto;
+    font-family: arial;
+    font-size: 14px;
+}
+.central {
+    width: 100%;
+    background:#000  url(https://1.bp.blogspot.com/-yux8H2msvLw/XXFXmRh4EuI/AAAAAAAAmlE/Eu4Qtchw6KUCxVlsbFGrG3xa5yM0742AgCLcBGAs/s1600-e90/bg-dota.jpg) no-repeat scroll center top 9px;
+
+}
+#headerImg {
+    max-width: 170px;
+    right: -1000px;
+    border: 0;
+    color: transparent;
+    padding-left: 50px;
+}
+/* NAVEGADOR */
+
+#navegador {
+    background: #81887F;
+}
+#navegador ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#navegador ul li {
+    display: inline-block;
+}
+#navegador ul li a {
+    color: antiquewhite;
+    padding: 10px;
+    display: block;
+    padding: 13px 40px;
+    text-decoration: none;
+}
+#navegador ul li a:hover {
+    background-color: #2F322F;
+}
+
+/* CARRUCEL PRINCIPAL */
+
+#carrucel-principal {
+    position: relative;
+    overflow: hidden;
+}
+#progreso-carrucel {
+    position: relative;
+    height: 10x;
+    background-color: rgba(0, 0, 0, 2);
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+#progreso-bar {
+    height: 100%;
+    background-color: rgba(228, 69, 69, 0.7);
+    border-radius: 0 3px 3px 0;
+    transition: width 0.8s;
+}
+#progreso {
+    position: relative;
+    z-index: 988;
+    height: 600px;
+}
+.img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    object-fit: cover;
+}
+#img2{
+    /* left: 100%; */
+    opacity: 0;
+}
+.activo {
+    /* left: 0 !important; */
+    opacity: 1 !important;
+    transition: all 1s;
+}
+#indicadores {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    z-index: 999;
+}
+.circler {
+    border: white 2px solid;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    background-color: transparent;
+    border-radius: 50%;
+
+}
+.resaltado {
+    background-color: rgba(228, 69, 69, 1);
+    transition: background-color .8s;
+}
+
