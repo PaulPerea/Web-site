@@ -6,6 +6,7 @@ body{
     height: 100%;
     background-color: rgb(223, 213, 213);
 }
+/* Contenido encabezado  */
 .suscripcion{
     background-color: violet;
     width: 677px;
@@ -18,5 +19,12 @@ body{
 }
 .texto{
     display: inline-block;
+    text-size-adjust:  50;
     vertical-align: top;
+}
+.encabezado img {
+    width: 55px ;
+    height: 55px;
+    background-color: red; 
+    border-radius: 98% ;
 }
